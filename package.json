@@ -6,10 +6,12 @@
     "deploy": "wrangler deploy --minify src/index.ts"
   },
   "dependencies": {
-    "hono": "^4.5.5"
+    "google-calendar-url": "^0.0.5",
+    "hono": "^4.5.5",
+    "openai": "^4.55.9"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20240529.0",
-    "wrangler": "^3.57.2"
+    "@cloudflare/workers-types": "^4.20240815.0",
+    "wrangler": "^3.71.0"
   }
 }
